@@ -12,3 +12,6 @@ Este programa permite que la agencia esté constantemente actualizada y se adapt
 Por otro lado, si un vehículo ya no es popular o está desactualizado, los trabajadores de la agencia también pueden quitarlo del catálogo para hacer espacio para nuevos modelos más atractivos y modernos.
 
 ## Consideraciones
+El programa corre en consola y esta hecho con c++
+
+Además se ocupa tener en la misma carpeta las clases realizadas así como el archivo que contiene los usuarios y contraseñas para que pueda correr de manera adecuada
