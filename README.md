@@ -7,9 +7,11 @@ Este proyecto trata sobre una agencia de coches, en donde cada usuario, que es u
 
 
 ## Funcionalidad
-Este programa permite que la agencia esté constantemente actualizada y se adapte a las necesidades y preferencias de sus clientes. Si surge una nueva tendencia en el mercado automotriz o si hay una demanda creciente por un tipo específico de vehículo, los trabajadores de la agencia tienen la capacidad de agregarlo al catálogo para satisfacer las necesidades de los clientes.
+Este programa permite que la trabajadores de la agencia actualicen el catalogo de vehiculos mediante agregando vehiculos y quitandolos.
 
-Por otro lado, si un vehículo ya no es popular o está desactualizado, los trabajadores de la agencia también pueden quitarlo del catálogo para hacer espacio para nuevos modelos más atractivos y modernos.
+Además en esta agencia hay 3 tipos de vehiculos, coches, camionetas y motos.
+
+La clase sistema es la clase encargada de mostrar el catalogo disonible y el resgistro de los trabajadores.
 
 ## Consideraciones
 El programa corre en consola y esta hecho con c++
