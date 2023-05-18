@@ -14,4 +14,4 @@ Por otro lado, si un vehículo ya no es popular o está desactualizado, los trab
 ## Consideraciones
 El programa corre en consola y esta hecho con c++
 
-Además se ocupa tener en la misma carpeta las clases realizadas así como el archivo que contiene los usuarios y contraseñas para que pueda correr de manera adecuada
+Es necesario tener en la misma carpeta las clases realizadas así como el archivo que contiene los usuarios y contraseñas para que pueda correr de manera adecuada
