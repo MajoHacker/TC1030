@@ -17,3 +17,7 @@ La clase sistema es la clase encargada de mostrar el catálogo disonible y el re
 El programa corre en consola y esta hecho con c++
 
 Es necesario tener en la misma carpeta las clases realizadas así como el archivo que contiene los usuarios y contraseñas para que pueda correr de manera adecuada
+
+Asi mismo si el usuario ingresa un dato de tipo distinto (Ej. pide string y pone un entero) el programa no correra de manera adecuada.
+
+También si da enter cuando el programa pida información es posible que se tenga que volver a correr el programa para que corra de manera correcta
