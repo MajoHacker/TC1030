@@ -21,3 +21,6 @@ Es necesario tener en la misma carpeta las clases realizadas así como el archiv
 Asi mismo si el usuario ingresa un dato de tipo distinto (Ej. pide string y pone un entero) el programa no correra de manera adecuada.
 
 También si da enter cuando el programa pida información es posible que se tenga que volver a correr el programa para que corra de manera correcta
+
+## Consideraciones Avance 2:
+Para esta entrega se demuestra herencia, sobrescritura, sobrecarga y métodos de acesso, es necesario descargar Vehiculo.h, Catalogo.h y el main.cpp para poder compilar el codigo de manera adecuada.
