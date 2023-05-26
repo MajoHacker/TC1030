@@ -44,12 +44,6 @@ class Catalogo {
             cout << endl;
         }
     }
-
-    ~Catalogo() {
-        for (size_t i = 0; i < vehiculos.size(); i++) {
-            delete vehiculos[i];
-        }
-    }
     
 };
 
