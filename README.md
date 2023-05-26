@@ -24,3 +24,5 @@ También si da enter cuando el programa pida información es posible que se teng
 
 ## Consideraciones Avance 2:
 Para esta entrega se demuestra herencia, sobrescritura, sobrecarga y métodos de acesso, es necesario descargar Vehiculo.h, Catalogo.h y el main.cpp para poder compilar el codigo de manera adecuada.
+
+Asimismo en esta entrega se le asignan valores por default a coche, moto y camioneta, para comprobar que el programa compila y que métodos como muestra_catalogo, elimina_vehiculo y agrega_vehiculo funcionan adecuadamente.
