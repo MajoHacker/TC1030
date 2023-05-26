@@ -11,12 +11,12 @@ Este programa permite que la trabajadores de la agencia actualicen el catálogo 
 
 Además en esta agencia hay 3 tipos de vehiculos, coches, camionetas y motos.
 
-La clase sistema es la clase encargada de mostrar el catálogo disonible y el resgistro de los trabajadores.
+La clase catalogo es la encargada de mostrar el catalogo y hacer modificaciones al mismo.
 
 ## Consideraciones generales
 El programa corre en consola y esta hecho con c++
 
-Es necesario tener en la misma carpeta las clases realizadas así como el archivo que contiene los usuarios y contraseñas para que pueda correr de manera adecuada
+Es necesario tener en la misma carpeta las clases realizadas para que pueda correr de manera adecuada
 
 Asi mismo si el usuario ingresa un dato de tipo distinto (Ej. pide string y pone un entero) el programa no correra de manera adecuada.
 
