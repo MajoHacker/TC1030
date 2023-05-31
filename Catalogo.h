@@ -23,6 +23,7 @@ using namespace std;
 class Catalogo {
     //Declaro las variables de instancia privadas
     private:
+        // Un vector con apuntadores para poder guardar en el heap
         vector<Vehiculo*> vehiculos;
 
     //Declaro metodos públicos
@@ -32,7 +33,7 @@ class Catalogo {
         }
 
     void eliminar_vehiculo(int indice) {
-        if (indice >= 0 && indice < vehiculos.size()) {
+        if (indice >= 0 and indice < vehiculos.size()) {
             delete vehiculos[indice];
             vehiculos.erase(vehiculos.begin() + indice);
         }
@@ -40,11 +41,10 @@ class Catalogo {
 
     void mostrar_catalogo() {
         for (size_t i = 0; i < vehiculos.size(); i++) {
+            cout << "\n---------- Vehiculos disponibles ----------" << endl;
             vehiculos[i]->mostrar_vehiculo();
-            cout << endl;
+            cout << "-----------------------------------------" << endl;
         }
     }
-    
 };
-
 #endif
