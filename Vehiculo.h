@@ -19,6 +19,7 @@ using namespace std;
 
 //Declaracion de clase Vehiculo que es abstracta
 class Vehiculo{
+
     // Declaro las variables de instancia protegidas
     protected:
         string marca;
@@ -27,7 +28,7 @@ class Vehiculo{
         double precio;
 
     public:
-    //Declaro métodos públicos
+    //Declaro los métodos que va a tener el objeto
         Vehiculo(string _marca, string _modelo, int _anio, double _precio)
             : marca(_marca), modelo(_modelo), anio(_anio), precio(_precio) {}
 
@@ -56,12 +57,18 @@ class Moto : public Vehiculo{
     private:
     int num_llantas;
 
-    //Declaro metodos públicos
+    //Declaro metodos públicos del objeto
     public:
     Moto(string _marca, string _modelo, int _anio, double _precio, int _numero_llantas)
         : Vehiculo(_marca, _modelo, _anio, _precio), num_llantas(_numero_llantas) {
         }
 
+    /*
+    * mostrar_vehiculo muestra los datos del vehiculo guardado
+    *
+    * recibe los datos de un vehiculo por default
+    * en este caso añade num_llantas que es un atributo exclusivo de moto
+    */
     void mostrar_vehiculo() {
         cout << "Moto: ";
         Vehiculo::mostrar_vehiculo();
@@ -76,12 +83,18 @@ class Coche : public Vehiculo{
     private:
     string tipo_coche;
 
-    //Declaro metodos públicos
+    //Declaro metodos públicos del objeto
     public:
     Coche(string _marca, string _modelo, int _anio, double _precio, string _tipo_coche)
         : Vehiculo(_marca, _modelo, _anio, _precio), tipo_coche(_tipo_coche) {
         }
 
+    /*
+    * mostrar_vehiculo muestra los datos del vehiculo guardado
+    *
+    * recibe los datos de un vehiculo por default
+    * en este caso añade tipo_coche que es un atributo exclusivo de coche
+    */
     void mostrar_vehiculo() {
         cout << "Coche: ";
         Vehiculo::mostrar_vehiculo();
@@ -96,7 +109,7 @@ class Camioneta : public Vehiculo{
     private:
     string tipo_camioneta;
 
-    //Declaro metodos públicos
+    //Declaro metodos públicos del objeto
     public:
     Camioneta(string _marca, string _modelo, int _anio, double _precio, string _tipo_camioneta)
         : Vehiculo(_marca, _modelo, _anio, _precio), tipo_camioneta(_tipo_camioneta) {
