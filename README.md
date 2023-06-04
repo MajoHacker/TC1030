@@ -22,6 +22,8 @@ Asi mismo si el usuario ingresa un dato de tipo distinto (Ej. pide string y pone
 
 También si da enter cuando el programa pida información es posible que se tenga que volver a correr el programa para que corra de manera correcta
 
+Por último los unicos dos usuarios registrados de esta agencia son "benjamin" y "majo", por lo que si se quiere entrar al programa es necesario escribir de esa manera el usuario puedes usar cualquiera de las dos opciones para entrar.
+
 ## Consideraciones Avance 2:
 Para esta entrega se demuestra herencia, sobrescritura, sobrecarga y métodos de acesso, es necesario descargar Vehiculo.h, Catalogo.h y el main.cpp para poder compilar el codigo de manera adecuada.
 
