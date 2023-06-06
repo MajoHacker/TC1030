@@ -13,21 +13,16 @@ Además en esta agencia hay 3 tipos de vehiculos, coches, camionetas y motos.
 
 La clase catalogo es la encargada de mostrar el catalogo y hacer modificaciones al mismo.
 
-## Consideraciones generales
+## Consideraciones
 El programa corre en consola y esta hecho con c++
 
 Es necesario tener en la misma carpeta las clases realizadas para que pueda correr de manera adecuada
 
+Los unicos usuarios que tiene acceso al proyecto son "benjamin" o "majo", asi que para que te de acceso al programa es necesario poner cualquiera de estos dos usuarios para poder ingresar al programa (debes escribirlos en minusculas).
+
 Asi mismo si el usuario ingresa un dato de tipo distinto (Ej. pide string y pone un entero) el programa no correra de manera adecuada.
 
-También si da enter cuando el programa pida información es posible que se tenga que volver a correr el programa para que corra de manera correcta
+Ejemplo: cuando te pide que opcion deseas deberas ingresar 1 ó 2 ó 3 ó 4 (no debes de poner letras).
 
-Por último los unicos dos usuarios registrados de esta agencia son "benjamin" y "majo", por lo que si se quiere entrar al programa es necesario escribir de esa manera el usuario puedes usar cualquiera de las dos opciones para entrar.
+De igual forma cuando te pide el precio o el año del vehiculo es necesario ingresar un entero.
 
-## Consideraciones Avance 2:
-Para esta entrega se demuestra herencia, sobrescritura, sobrecarga y métodos de acesso, es necesario descargar Vehiculo.h, Catalogo.h y el main.cpp para poder compilar el codigo de manera adecuada.
-
-Asimismo en esta entrega se le asignan valores por default a coche, moto y camioneta, para comprobar que el programa compila y que métodos como muestra_catalogo, eliminar_vehiculo y agregar_vehiculo funcionan adecuadamente.
-
-## Consideraciones Avance 3:
-Es necesario poner el tipo de dato que te pide en las opciones que te dice que deseas hacer ya que aun no se ha implementado una funcion que compruebe que el tipo de dato ingreado sea correcto
