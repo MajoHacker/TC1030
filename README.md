@@ -18,7 +18,7 @@ El programa corre en consola y esta hecho con c++
 
 Es necesario tener en la misma carpeta las clases realizadas para que pueda correr de manera adecuada
 
-Los unicos usuarios que tiene acceso al proyecto son "benjamin" o "majo", asi que para que te de acceso al programa es necesario poner cualquiera de estos dos usuarios para poder ingresar al programa (debes escribirlos en minusculas).
+Los unicos usuarios que tiene acceso al proyecto son "benjamin" o "majo", asi que para que te de acceso al programa es necesario poner cualquiera de estos dos usuarios para poder ingresar al programa (debes escribirlos en minusculas y sin las comillas).
 
 Asi mismo si el usuario ingresa un dato de tipo distinto (Ej. pide string y pone un entero) el programa no correra de manera adecuada.
 
