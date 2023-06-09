@@ -52,7 +52,7 @@ class Vehiculo{
         double get_precio(){
             return precio;
         }
-
+        
         // Destructor virtual
         virtual ~Vehiculo() {
         }
@@ -80,7 +80,7 @@ class Moto : public Vehiculo{
         }
 };
 
-/*
+/**
 * mostrar_vehiculo convierte a atributos a string.
 *
 * concatena todos los valores de los atributos en un string para ser impreso
@@ -120,7 +120,7 @@ class Coche : public Vehiculo{
         }
 };
 
-/*
+/**
 * mostrar_vehiculo convierte a atributos a string.
 *
 * concatena todos los valores de los atributos en un string para ser impreso
@@ -160,7 +160,7 @@ class Camioneta : public Vehiculo{
         }
 };
 
-/*
+/**
 * mostrar_vehiculo convierte a atributos a string.
 *
 * concatena todos los valores de los atributos en un string para ser impreso
