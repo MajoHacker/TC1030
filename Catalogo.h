@@ -37,18 +37,19 @@ class Catalogo {
 
 };
 
-/*
+/**
 * agregar_vehiculo agrega un vehiculo al catalogo al agregar este 
 * al vector utilizando push_back que se utuliza para agregar 
 * elementos al final de un vector
 *
-* recibe un apuntador a un vehiculo 
+* @param apuntador a un vehiculo 
+* @return 
 */
     void Catalogo::agregar_vehiculo(Vehiculo* vehiculo) {
          vehiculos.push_back(vehiculo);
     }
 
-/*
+/**
 * eliminar_vehiculo elimina un vehiculo del catalogo, eliminando este
 * del vector
 * 
@@ -64,7 +65,8 @@ class Catalogo {
 * y al sumarle el indice, se obtiene un iterador que apunta al elemento
 * que se desea eliminar
 * 
-* recibe el indice del vehiculo que se desea eliminar
+* @param indice del vehiculo que se desea eliminar
+* @return 
 */
     void Catalogo::eliminar_vehiculo(int indice) {
         if (indice >= 0 and indice < vehiculos.size()) {
@@ -73,13 +75,16 @@ class Catalogo {
          }
     }
 
-/*
+/**
 * mostrar_vehiculo muestra el catalogo de vehiculos 
 *
 * llamando a la funcion mostrar_vehiculo
 * 
 * size se utiliza para determinar cuántos vehículos hay en el
 * catalogo y garantizar que se recorran todos los elementos 
+*
+* @param
+* @return 
 */
     void Catalogo::mostrar_catalogo() {
     cout << "----- Catálogo de Vehículos -----" << endl;
