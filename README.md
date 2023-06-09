@@ -26,3 +26,5 @@ Ejemplo: cuando te pide que opcion deseas deberas ingresar 1 ó 2 ó 3 ó 4 (no 
 
 De igual forma cuando te pide el precio o el año del vehiculo es necesario ingresar un entero.
 
+## Correcciones:
+Se agregaron las consideraciones, es decir se identifico los caso que harían que el proyecto deje de funcionar, se encuentran en el readme en la parte de consideraciones
